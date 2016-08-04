@@ -9,7 +9,7 @@ This custom type for Angular Formly is based on [Cleave.js](https://github.com/n
 #### npm
 
 ```bash
-npm install --save angular-formly-cleavejs
+npm install --save cleave.js angular-formly-cleavejs
 ```
 
 ## Usage
@@ -17,10 +17,12 @@ npm install --save angular-formly-cleavejs
 First import the library in your project.
 
 ```
+import 'cleave.js';
 import 'angular-formly-cleavejs';
 
 // or
 
+require('cleave.js);
 require('angular-formly-cleavejs);
 ```
 
@@ -73,8 +75,6 @@ Right now the phone region code, and thus the phone mask, doesn't work, i hope t
 ## Todo
 - [ ] Fix phone mask
 - [ ] Add some tests
-
-> For contributors, we have a [not in the plan](https://github.com/nosir/cleave.js/blob/master/doc/not-in-the-plan.md) list you may concern.
 
 ## Get in touch
 - Bugs / Suggestions: [open an issue](https://github.com/eliagentili/angular-formly-cleavejs/issues)
