@@ -17,6 +17,7 @@ export default angular
                       id="{{ $ctrl.id }}"
                       name="{{ $ctrl.id }}"
                       placeholder="{{ $ctrl.to.placeholder }}"
+                      formly-focus="{{ $ctrl.to.focus }}"
                       ng-model="$ctrl.ngModel"
                       ng-required="$ctrl.to.required"
                       ng-change="$ctrl.onChange($ctrl.ngModel)"
