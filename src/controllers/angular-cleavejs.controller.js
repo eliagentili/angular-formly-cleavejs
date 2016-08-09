@@ -23,10 +23,15 @@ export class AngularCleavejsController {
 
   $onChange(nextProps) {
     const phoneRegionCode = nextProps.to.cleavejs.phoneRegionCode;
-    const newValue = nextProps.ngModel;
+    let newValue = nextProps.ngModel;
 
     if (newValue) {
-      this.onInput(newValue);
+      newValue = newValue.toString();
+
+      if (newValue !== this.initValue) {
+        this.initValue = newValue;
+        this.onInput(newValue);
+      }
     }
 
     // update phone region code
