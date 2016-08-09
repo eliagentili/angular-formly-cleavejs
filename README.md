@@ -1,5 +1,10 @@
 # angular-formly-cleavejs
 
+[![npm version](https://img.shields.io/npm/v/angular-formly-cleavejs.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/angular-formly-cleavejs)
+[![npm downloads](https://img.shields.io/npm/dm/angular-formly-cleavejs.svg?maxAge=2592000)](https://npm-stat.com/charts.html?package=angular-formly-cleavejs&from=2016-08-03)
+[![MIT license](https://img.shields.io/github/license/eliagentili/angular-formly-cleavejs.svg?maxAge=2592000?style=flat-square)](https://opensource.org/licenses/MIT)
+
+
 This custom type for Angular Formly is based on [Cleave.js](https://github.com/nosir/cleave.js) and translate it's own React component in an Angular one.
 
 ---
