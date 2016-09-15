@@ -21,14 +21,18 @@ npm install --save cleave.js angular-formly-cleavejs
 
 First import the library in your project.
 
+You need to import cleave.js angular directive and the right phone lib.
+ 
+
 ```
-import 'cleave.js';
-import 'angular-formly-cleavejs';
+import 'cleave.js/dist/cleave-angular.min';
+import 'cleave.js/dist/addons/cleave-phone.{...}';
 
 // or
 
-require('cleave.js);
-require('angular-formly-cleavejs);
+require('cleave.js/dist/cleave-angular.min');
+require('cleave.js/dist/addons/cleave-phone.{...}');
+
 ```
 
 Include the module in your angular app.
